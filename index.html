@@ -20,13 +20,16 @@
                 <p>Houston, we are ready when you are!</p>
             </div>
             <div id = "shuttleBackground" style = "position: relative;">
-                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
+                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket" style = "position: relative"/>
             </div>
             <div style = "text-align: center; display: inline-block;">
-                    <button>Up</button>
-                    <button>Down</button>
-                    <button>Right</button>
-                    <button>Left</button>
+                    <!-- Part 5:  When the "Up", "Down", "Right", and "Left" buttons are clicked, the following should happen:
+                    The rocket image should move 10 px in the direction of the button that was clicked.
+                    If the "Up" or "Down" buttons were clicked, then the shuttle height should increase or decrease by 10,000 miles. -->
+                    <button id = "up">Up</button>
+                    <button id = "down">Down</button>
+                    <button id = "right">Right</button>
+                    <button id = "left">Left</button>
                     <h3>Space Shuttle Height</h3>
                     <p id="spaceShuttleHeight">0</p><p style = "display: inline-block;"> miles</p>
             </div>
